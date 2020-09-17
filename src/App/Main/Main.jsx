@@ -4,6 +4,7 @@ import IsPrime from './IsPrime/IsPrime';
 import './Main.css';
 
 function Main() {
+  const error = 0;
   /**
    * Sauvegarde locale du nombre à tester
    */
