@@ -19,5 +19,13 @@
   ],
   "rules": {
     "prettier/prettier": ["error", {}, { "usePrettierrc": true }]
-  }
+  },
+  "overrides": [
+    {
+      "files": "*.test.js",
+      "env": {
+        "jest": true
+      }
+    }
+  ]
 }
